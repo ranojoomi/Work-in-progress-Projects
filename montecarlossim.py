@@ -5,7 +5,6 @@ mean = float(input("Enter the mean: "))
 std = float(input("Enter the standard deviation: "))
 years = int(input("Enter your timeframe in years: "))
 
-
 def simulation():
 
     x = np.random.normal(mean, std, years)
