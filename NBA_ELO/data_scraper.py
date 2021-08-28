@@ -18,7 +18,6 @@ for year in range(start_year, current_year + 1):
 			main_df = main_df.append(df, ignore_index=True)
 			main_df = main_df.dropna()
 			
-
 		except urllib.error.HTTPError:
 			continue
 		except ValueError:
